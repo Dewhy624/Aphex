@@ -25,10 +25,20 @@ export default function Header() {
 
     const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
         e.preventDefault();
-        setMobileOpen(false);
         const target = document.querySelector(href);
         if (target) {
-            target.scrollIntoView({ behavior: "smooth" });
+            // Close mobile menu first, then scroll after a brief delay
+            // so the menu closing animation doesn't block the scroll
+            if (mobileOpen) {
+                setMobileOpen(false);
+                setTimeout(() => {
+                    target.scrollIntoView({ behavior: "smooth" });
+                }, 350);
+            } else {
+                target.scrollIntoView({ behavior: "smooth" });
+            }
+        } else {
+            setMobileOpen(false);
         }
     };
 
