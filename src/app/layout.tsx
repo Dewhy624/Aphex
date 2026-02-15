@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "APHEX | 기업 성장을 위한 전문 컨설팅 파트너",
+  title: "아펙스파트너스 | 중소기업 경영컨설팅",
   description:
-    "APHEX는 경정청구, IP 전략, 기업 인증, 정부 과제 등 기업의 성장과 혁신을 돕는 전문 컨설팅 서비스를 제공합니다.",
-  keywords: ["APHEX", "경정청구", "IP전략", "기업인증", "정부과제", "기업컨설팅"],
+    "(주)아펙스파트너스 - 중소기업 경영컨설팅. 기업재무관리, 기업인증, 투자유치, 경정청구, IP전략, 정부지원사업 등 기업 맞춤 자문을 제공합니다.",
+  keywords: ["아펙스파트너스", "APHEX", "경영컨설팅", "기업재무관리", "기업인증", "투자유치", "경정청구", "IP전략", "정부지원사업", "PCM", "창업전략", "M&A"],
   openGraph: {
-    title: "APHEX | 기업 성장을 위한 전문 컨설팅 파트너",
+    title: "아펙스파트너스 | 중소기업 경영컨설팅",
     description:
-      "경정청구, IP 전략, 기업 인증 등 기업 성장을 위한 전문 컨설팅.",
+      "(주)아펙스파트너스 - 기업재무관리, 기업인증, 투자유치, 경정청구 등 기업 맞춤 자문을 제공합니다.",
     type: "website",
     locale: "ko_KR",
   },

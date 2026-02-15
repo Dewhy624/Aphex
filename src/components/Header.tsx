@@ -7,9 +7,9 @@ import Image from "next/image";
 
 const navLinks = [
     { label: "Home", href: "#hero" },
-    { label: "About", href: "#about" },
-    { label: "Services", href: "#services" },
-    { label: "Portfolio", href: "#portfolio" },
+    { label: "회사소개", href: "#about" },
+    { label: "서비스", href: "#services" },
+    { label: "서비스 절차", href: "#process" },
     { label: "Contact", href: "#contact" },
 ];
 
