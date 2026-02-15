@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
     { label: "Home", href: "#hero" },
@@ -37,8 +38,8 @@ export default function Header() {
             animate={{ y: 0 }}
             transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
-                    ? "glass shadow-lg shadow-black/20"
-                    : "bg-transparent"
+                ? "glass shadow-lg shadow-black/20"
+                : "bg-transparent"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -49,13 +50,14 @@ export default function Header() {
                         onClick={(e) => handleNavClick(e, "#hero")}
                         className="flex items-center gap-3 group"
                     >
-                        <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-accent to-accent-light flex items-center justify-center
-                            shadow-lg shadow-accent/20 group-hover:shadow-accent/40 transition-shadow duration-300">
-                            <span className="text-primary font-black text-lg">A</span>
-                        </div>
-                        <span className="text-xl font-bold tracking-tight text-text-primary">
-                            APE<span className="gradient-text">X</span>
-                        </span>
+                        <Image
+                            src="/logo.svg"
+                            alt="APHEX"
+                            width={139}
+                            height={42}
+                            className="h-8 w-auto brightness-0 invert"
+                            priority
+                        />
                     </a>
 
                     {/* Desktop Nav */}
