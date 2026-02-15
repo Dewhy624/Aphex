@@ -189,7 +189,7 @@ export default function Home() {
             <SectionTitle
               label="About Us"
               title="신뢰를 바탕으로 한 전문 파트너"
-              subtitle="APEX는 2010년 설립 이래, 기업의 지속 가능한 성장을 위해 최적화된 솔루션을 제공해 왔습니다."
+              subtitle="APHEX는 2010년 설립 이래, 기업의 지속 가능한 성장을 위해 최적화된 솔루션을 제공해 왔습니다."
             />
 
             {/* Values Grid */}
@@ -326,9 +326,9 @@ export default function Home() {
               <AnimatedSection className="lg:col-span-2" direction="left">
                 <div className="space-y-6">
                   {[
-                    { icon: MapPin, title: "주소", content: "서울특별시 강남구 테헤란로 123\nAPEX타워 15층" },
+                    { icon: MapPin, title: "주소", content: "서울특별시 강남구 테헤란로 123\nAPHEX타워 15층" },
                     { icon: Phone, title: "전화", content: "02-1234-5678" },
-                    { icon: Mail, title: "이메일", content: "contact@apex.co.kr" },
+                    { icon: Mail, title: "이메일", content: "contact@aphex.co.kr" },
                     { icon: Clock, title: "운영시간", content: "평일 09:00 - 18:00\n(주말/공휴일 휴무)" },
                   ].map((item) => (
                     <div

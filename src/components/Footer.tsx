@@ -92,7 +92,7 @@ export default function Footer() {
                             <li className="flex items-start gap-3">
                                 <MapPin size={18} className="text-accent mt-0.5 shrink-0" />
                                 <span className="text-text-secondary text-sm">
-                                    서울특별시 강남구 테헤란로 123<br />APEX타워 15층
+                                    서울특별시 강남구 테헤란로 123<br />APHEX타워 15층
                                 </span>
                             </li>
                             <li className="flex items-center gap-3">
@@ -101,7 +101,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail size={18} className="text-accent shrink-0" />
-                                <span className="text-text-secondary text-sm">contact@apex.co.kr</span>
+                                <span className="text-text-secondary text-sm">contact@aphex.co.kr</span>
                             </li>
                         </ul>
                     </div>
@@ -111,7 +111,7 @@ export default function Footer() {
                 <div className="border-t border-border-subtle pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-text-secondary text-xs">
-                            © 2026 APEX Corporation. All rights reserved.
+                            © 2026 APHEX Corporation. All rights reserved.
                         </p>
                         <div className="flex gap-6 text-xs text-text-secondary">
                             <a href="#" className="hover:text-accent-light transition-colors">개인정보처리방침</a>
